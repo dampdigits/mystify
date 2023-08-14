@@ -1,0 +1,69 @@
+/* BEGIN NAVBAR */
+.navbar {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+    backdrop-filter: blur(10px);
+    .navbar-nav {
+        font-family: 'Roboto', sans-serif;
+		justify-content: center;
+	}
+}
+
+/* Screen width < 576px will enable navbar toggler */
+@media (min-width: 576px) {
+    .navbar {
+        height: 80px;
+    }
+}
+
+.navbar-brand:hover {
+    text-shadow: 0 0 10px yellow, 0 0 20px yellow;
+}
+/* END NAVBAR */
+
+.icon {
+    width: 25px;
+    margin-right: 1.5rem;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+.main {
+    background: url('./photos/suit_wide_bgChangeCmprssd.png') no-repeat;
+
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#banner {
+    padding-top: 200px;
+    padding-bottom: 55px;
+}
+
+#greetingText {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 35px;
+    color: white;
+}
+
+/* Screen width less than 768px will push #greetingText on top of face */
+@media (max-width: 991px) {
+    #banner {
+        padding-top: 300px;
+        padding-bottom: 55px;
+    }
+    #greetingText {
+        font-size: 22px;
+    }
+}
+
+#bio {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.custom-hr {
+    width: calc(100% - 95px);
+}

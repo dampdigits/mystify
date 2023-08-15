@@ -24,9 +24,27 @@
 }
 
 #greetingText {
+    display: inline-block;
     font-family: 'Press Start 2P', cursive;
     font-size: 35px;
     color: white;
+    border-right: 10px solid white;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 2s steps(22),
+        cursor .4s step-end infinite alternate;
+}
+
+/* Blinking cursor*/
+@keyframes cursor {
+    50% { border-color: transparent}
+}
+
+/* Typing effect */
+@keyframes typing {
+    from { width: 0 }
 }
 
 /* Screen width less than 768px will push #greetingText on top of face */

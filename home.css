@@ -42,7 +42,7 @@
 } */
 /* ---------------------------------------------- */
 
-#greetingText {
+#greetingText {   
     display: inline-block;
     font-family: 'Press Start 2P', cursive;
     font-size: 35px;
@@ -60,7 +60,7 @@
     animation: blinkCursor 0.6s infinite;
 }
 
-/* Typing effect */
+  /* Typing effect */
 @keyframes typing {
     from { width: 0 }
 }

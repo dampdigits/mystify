@@ -3,8 +3,7 @@ const line2Text = document.getElementById("line2Text");
 const cursor1 = document.getElementById("cursor1");
 const cursor2 = document.getElementById("cursor2");
 
-function typeTextWithDelay(textElement, cursorElement, delay) {
-    const text = textElement.textContent;
+function typeTextWithDelay(textElement, cursorElement, text, delay) {
     let currentCharIndex = 0;
 
     function type() {
@@ -20,7 +19,7 @@ function typeTextWithDelay(textElement, cursorElement, delay) {
                     cursorElement.style.animation = "none"; // Stop cursor blinking
                     cursorElement.style.display = "none"; // Hide cursor after blinking
                     if (textElement === line1Text) {
-                      typeTextWithDelay(line2Text, cursor2, 1000); // Start typing the next line
+                        typeTextWithDelay(line2Text, cursor2, "I'm Sameer", 0); // Start typing the next line
                     }
                 }, 1800); // Cursor blinking time (3 blinks)
             }, delay); // Delay before cursor blinking
@@ -31,5 +30,7 @@ function typeTextWithDelay(textElement, cursorElement, delay) {
     type();
 }
 
-// Start typing the first line
-typeTextWithDelay(line1Text, cursor1, 0);
+// Start typing the first line after the page has loaded
+window.onload = () => {
+    typeTextWithDelay(line1Text, cursor1, "Hello World!", 0);
+};

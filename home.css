@@ -50,26 +50,26 @@
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
-  }
+}
 
-  #cursor {
+#cursor {
     display: inline-block;
     width: 2px;
     height: 0.8em; /* Adjust the height of the cursor */
     background-color: white;
     animation: blinkCursor 0.6s infinite;
-  }
+}
 
-  /* Typing effect */
-  @keyframes typing {
+/* Typing effect */
+@keyframes typing {
     from { width: 0 }
-  }
+}
 
-  /* Blinking cursor */
-  @keyframes blinkCursor {
+/* Blinking cursor */
+@keyframes blinkCursor {
     0%, 100% { opacity: 0 }
     50% { opacity: 1 }
-  }
+}
 
 /* Screen width less than 768px will push #greetingText on top of face */
 @media (max-width: 991px) {

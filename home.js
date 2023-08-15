@@ -1,19 +1,28 @@
-const greetingText = document.getElementById("greetingText");
-const lines = greetingText.getElementsByClassName("line");
-const cursor = document.getElementById("cursor");
+const lines = document.querySelectorAll(".line");
+const cursors = document.querySelectorAll(".cursor");
+const typingTexts = document.querySelectorAll(".typing-text");
 
-let currentLineIndex = 0;
+function typeText(textElement, cursorElement) {
+    const text = textElement.textContent;
+    let currentCharIndex = 0;
 
-function typeLine() {
-    if (currentLineIndex < lines.length) {
-        lines[currentLineIndex].style.animation = "typing 2s steps(" + lines[currentLineIndex].textContent.length + ")";
-        currentLineIndex++;
-        setTimeout(typeLine, 2500); // Adjust the delay between lines
+    function type() {
+        if (currentCharIndex <= text.length) {
+            textElement.textContent = text.substr(0, currentCharIndex);
+            currentCharIndex++;
+            setTimeout(type, 100); // Adjust the typing speed here
+        }
+        else {
+            cursorElement.style.display = "none"; // Hide cursor after typing
+        }
     }
-    else {
-    cursor.style.display = "none"; // Hide cursor after typing
-    }
+
+    // Start typing animation
+    type();
 }
 
-// Start typing animation
-typeLine();
+for (let i = 0; i < lines.length; i++) {
+    const textElement = typingTexts[i];
+    const cursorElement = cursors[i];
+    typeText(textElement, cursorElement);
+}

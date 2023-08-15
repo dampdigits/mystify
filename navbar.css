@@ -2,9 +2,9 @@
 
 .navbar {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
-    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     -moz-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     
     .navbar-nav {
         font-family: 'Roboto', sans-serif;

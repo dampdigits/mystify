@@ -17,7 +17,6 @@ function typeTextWithDelay(textElement, cursorElement, text, delay) {
                 cursorElement.style.animation = "blinkCursor 1s 3"; // Blink cursor 3 times
                 setTimeout(() => {
                     cursorElement.style.animation = "none"; // Stop cursor blinking
-                    cursorElement.style.display = "none"; // Hide cursor after blinking
                     if (textElement === line1Text) {
                         typeTextWithDelay(line2Text, cursor2, "I'm Sameer", 0); // Start typing the next line
                     }

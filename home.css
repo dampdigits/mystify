@@ -69,12 +69,14 @@
 
 /* Blinking cursor */
 @-webkit-keyframes blinkCursor {
-    0%, 100% { opacity: 0 }
+    0% { opacity: 0 }
     50% { opacity: 1 }
+    100% { opacity: 0 }
 }
 @keyframes blinkCursor {
-    0%, 100% { opacity: 0 }
+    0% { opacity: 0 }
     50% { opacity: 1 }
+    100% { opacity: 0 }
 }
 
 /* Screen width less than 768px will push #greetingText on top of face */

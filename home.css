@@ -19,7 +19,7 @@
 }
 
 #banner {
-    padding-top: 160px;
+    padding-top: 200px;
     padding-bottom: 55px;
 }
 
@@ -32,7 +32,7 @@
 /* Screen width less than 768px will push #greetingText on top of face */
 @media (max-width: 991px) {
     #banner {
-        padding-top: 300px;
+        padding-top: 290px;
         padding-bottom: 55px;
     }
     #greetingText {

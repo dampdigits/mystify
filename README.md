@@ -17,11 +17,12 @@ This portfolio website serves as a showcase of my professional journey, skills, 
 
 ## Features
 
-- **Home:** An introduction to who I am and what I do.
+- **Home:** A welcome page to my website.
+- **About:** An introduction to who I am and what I do.
 - **Projects:** A collection of my significant projects with detailed information.
-- **Skills:** An overview of the skills and technologies I possess.
-- **Experience:** Details about my professional experiences and education.
-- **Contact:** A means to get in touch with me.
+- **Hobbies:** A look at things I love to do besides from programming.
+- **Resume:** A link to my Resume.
+- **Contact:** Social media profile links to get in touch with me.
 
 ## Technologies
 

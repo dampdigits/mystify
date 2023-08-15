@@ -1,8 +1,9 @@
-const lines = document.querySelectorAll(".line");
-const cursors = document.querySelectorAll(".cursor");
-const typingTexts = document.querySelectorAll(".typing-text");
+const line1Text = document.getElementById("line1Text");
+const line2Text = document.getElementById("line2Text");
+const cursor1 = document.getElementById("cursor1");
+const cursor2 = document.getElementById("cursor2");
 
-function typeText(textElement, cursorElement) {
+function typeTextWithDelay(textElement, cursorElement, delay) {
     const text = textElement.textContent;
     let currentCharIndex = 0;
 
@@ -13,7 +14,16 @@ function typeText(textElement, cursorElement) {
             setTimeout(type, 100); // Adjust the typing speed here
         }
         else {
-            cursorElement.style.display = "none"; // Hide cursor after typing
+            setTimeout(() => {
+                cursorElement.style.animation = "blinkCursor 0.6s 3"; // Blink cursor 3 times
+                setTimeout(() => {
+                    cursorElement.style.animation = "none"; // Stop cursor blinking
+                    cursorElement.style.display = "none"; // Hide cursor after blinking
+                    if (textElement === line1Text) {
+                      typeTextWithDelay(line2Text, cursor2, 1000); // Start typing the next line
+                    }
+                }, 1800); // Cursor blinking time (3 blinks)
+            }, delay); // Delay before cursor blinking
         }
     }
 
@@ -21,8 +31,5 @@ function typeText(textElement, cursorElement) {
     type();
 }
 
-for (let i = 0; i < lines.length; i++) {
-    const textElement = typingTexts[i];
-    const cursorElement = cursors[i];
-    typeText(textElement, cursorElement);
-}
+// Start typing the first line
+typeTextWithDelay(line1Text, cursor1, 0);

@@ -28,7 +28,7 @@ This portfolio website serves as a showcase of my professional journey, skills, 
 
 The portfolio website is built using a variety of technologies, including but not limited to:
 
-- HTML5, CSS3, and JavaScript for the front-end interface.
+- **HTML5**, **CSS3**, and **JavaScript** for the front-end interface.
 - [Bootstrap](https://getbootstrap.com/) for responsive and sleek design.
 - [GitHub Pages](https://pages.github.com/) for hosting the website directly from this repository.
 

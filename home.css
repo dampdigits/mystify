@@ -63,9 +63,9 @@
 }
 
 /* Typing effect */
-@keyframes typing {
+/* @keyframes typing {
     from { width: 0 }
-}
+} */
 
 /* Blinking cursor */
 @-webkit-keyframes blinkCursor {

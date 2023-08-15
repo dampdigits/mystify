@@ -10,11 +10,11 @@ function typeTextWithDelay(textElement, cursorElement, text, delay) {
         if (currentCharIndex <= text.length) {
             textElement.textContent = text.substr(0, currentCharIndex);
             currentCharIndex++;
-            setTimeout(type, 100); // Adjust the typing speed here
+            setTimeout(type, 120); // Adjust the typing speed here
         }
         else {
             setTimeout(() => {
-                cursorElement.style.animation = "blinkCursor 0.6s 3"; // Blink cursor 3 times
+                cursorElement.style.animation = "blinkCursor 1s 3"; // Blink cursor 3 times
                 setTimeout(() => {
                     cursorElement.style.animation = "none"; // Stop cursor blinking
                     cursorElement.style.display = "none"; // Hide cursor after blinking

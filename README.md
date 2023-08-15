@@ -7,7 +7,6 @@ Welcome to the repository for my personal portfolio website! This repository con
 - [About](#about)
 - [Features](#features)
 - [Technologies](#technologies)
-- [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contact](#contact)
@@ -30,14 +29,22 @@ The portfolio website is built using a variety of technologies, including but no
 
 - HTML5, CSS3, and JavaScript for the front-end interface.
 - [Bootstrap](https://getbootstrap.com/) for responsive and sleek design.
-- [Jekyll](https://jekyllrb.com/) for generating the static site.
 - [GitHub Pages](https://pages.github.com/) for hosting the website directly from this repository.
 
-## Installation
+## Usage
 
-To run this website locally, follow these steps:
+Feel free to use this repository as a template for your own portfolio website. Customize the content, styling, and structure to match your preferences and experiences. Replace the placeholder text and images with your own information. Remember to credit and adhere to the terms of the included third-party resources, and replace the license and author information as necessary.
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/your-portfolio.git
-   cd your-portfolio
+## License
+
+This project is licensed under the [GNU Affero General Public License version 3](.LICENSE). Please review the LICENSE file for more details.
+
+## Contact
+
+If you have any questions, suggestions, or would like to discuss collaboration opportunities, please feel free to reach out to me:
+
+Email: sameersalam730@gmail.com
+LinkedIn: [its-triple-s](https://www.linkedin.com/in/its-triple-s)
+Twitter: [@its_triple_s_](https://www.twitter.com/its_triple_s_)
+
+Thank you for visiting my portfolio repository!

@@ -2,7 +2,7 @@ var element = document.getElementById('greetingText');
 
 var typewriter = new Typewriter(element, {
   loop: true,
-  delay: 100,
+  delay: 75,
 });
 
 typewriter

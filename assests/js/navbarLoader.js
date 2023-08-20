@@ -1,7 +1,7 @@
 // navbarLoader.js
 const loadNavbar = async () => {
     try {
-        const response = await fetch('navbar.html');
+        const response = await fetch('../../navbar.html');
         if (!response.ok) {
             throw new Error('Failed to fetch navbar content');
         }

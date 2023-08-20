@@ -1,3 +1,5 @@
+// TYPE.JS
+
 var element = document.getElementById('greetingText');
 
 var typewriter = new Typewriter(element, {

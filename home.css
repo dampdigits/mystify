@@ -46,7 +46,7 @@
 /* Screen width less than 768px will push #greetingText on top of face */
 @media (max-width: 991px) {
     #banner {
-        padding-top: 320px;
+        padding-top: 300px;
     }
     #greetingText {
         font-size: 22px;

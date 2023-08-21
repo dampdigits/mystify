@@ -18,6 +18,6 @@
 
 // document.addEventListener('DOMContentLoaded', loadNavbar);
 
-$.get("../../navbar.html", function(data){
+$.get("navbar.html", function(data){
     $("#navbar-container").replaceWith(data);
     });

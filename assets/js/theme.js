@@ -8,9 +8,9 @@ button.onclick = function() {
     element.dataset.bsTheme =
         element.dataset.bsTheme == "light" ? "dark" : "light";
     // Check the current src of the image and change it
-    if (image.getAttribute('src') == "icons/sun-fill.svg") {
-        image.setAttribute('src', "icons/moon-stars-fill.svg");
+    if (image.getAttribute('src') == "assets/icons/sun-fill.svg") {
+        image.setAttribute('src', "assets/icons/moon-stars-fill.svg");
     } else {
-        image.setAttribute('src', "icons/sun-fill.svg");
+        image.setAttribute('src', "assets/icons/sun-fill.svg");
     }
 };

@@ -1,44 +1,66 @@
-<!-- ABOUT.HTML -->
+<!-- about.html -->
 
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark" dir="auto">
-
+<html lang="en" dir="auto" id="about-html" data-bs-theme="dark">
   <!-- BEGIN HEAD -->
   <head>
-      <meta charset="UTF-8">
-      <!-- Make responsive web design -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <!-- Make responsive web design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <title>Sk. Sameer Salam</title>
-      <meta name="description" content="About Sk. Sameer Salam">
+    <title>Sk. Sameer Salam</title>
+    <meta name="description" content="About Sk. Sameer Salam">
 
-      <!-- Tab icon -->
-      <link rel="icon" href="assets/img/gamezone_face_cutout.png" type="image/png">
+    <!-- Tab icon -->
+    <link rel="icon" href="assets/img/gamezone_face_cutout.png" type="image/png">
+    
+    <!-- Website preview -->
+    <meta property="og:title" content="Sk. Sameer Salam"/>
+    <meta property="og:description" content="About Sk. Sameer Salam"/>
+    <meta property="og:image" content="assets/img/suit_wide_bgChange.png"/>
 
-      <!-- Include Bootstrap's CSS -->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-      <!-- Include my CSS -->
-      <link href="assets/css/navbar.css" rel="stylesheet">
-
-      <!-- Website preview -->
-      <meta property="og:title" content="Sk. Sameer Salam"/>
-      <meta property="og:description" content="About Sk. Sameer Salam"/>
-      <meta property="og:image" content="assets/img/suit_wide_bgChange.png"/>
+    <!-- STYLES -->
+    <!-- Include Bootstrap's CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Include navbar CSS -->
+    <link href="assets/css/navbar.css" rel="stylesheet">
   </head>
   <!-- END HEAD -->
 
   <!-- BEGIN BODY -->
   <body>
-    <!-- Insert navigation Bar -->
-    <div id="navbar-placeholder"></div>
+    <!-- BEGIN NAVBAR -->
+    <nav class="navbar navbar-expand-sm fixed-top" data-bs-theme="dark">
+      <div class="container-fluid">
+        <!-- Button for Light/Dark Mode -->
+        <button type="button" class="icon btn px-3" id="themeBtn" >
+          <img id="themeIcon" src="assets/icons/sun-fill.svg" alt="themeIcon" width="20">
+        </button>
+
+        <!-- Nav-brand -->
+        <a class="navbar-brand px-1 px-sm-2 px-md-3 px-lg-5 text-uppercase fw-semibold" href="index.html">Sk. Sameer Salam</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav-links -->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav nav-underline d-flex flex-row ms-auto text-uppercase fw-semibold py-3">
+            <a id = "nav-about" class="nav-link active px-lg-2" href="about.html">About</a>
+            <a id = "nav-projects" class="nav-link px-lg-2" href="projects.html">Projects</a>
+            <a id = "nav-hobbies" class="nav-link px-lg-2" href="hobbies.html">Hobbies</a>
+            <a id = "nav-resume" class="nav-link px-lg-2" href="https://drive.google.com/file/d/1tgmbbcmaPKlGG7JOdahpWSpK6aeMSCnp/view?usp=drive_link">Resume</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
 
     <!-- SCRIPTS -->
     <!-- Include Bootstrap's javascript and dependencies-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <!-- Include jQuery library -->
-    <script src="//code.jquery.com/jquery.min.js"></script>
-    <!-- Include navbar javascript -->
-    <script src="assets/js/navbarLoader.js"></script>
+    <!-- Include js file to switch theme -->
+    <script src="assets/js/switchTheme.js"></script>
   </body>
   <!-- END HEAD -->
 

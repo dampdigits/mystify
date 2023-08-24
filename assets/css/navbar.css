@@ -23,16 +23,6 @@
     text-shadow: 0 0 10px yellow, 0 0 20px yellow;
 }
 
-/* Default style to enable theme button */
-#themeBtn {
-    display: inline-block;
-}
-
 #themeBtn:hover {
     transform: scale(1.2);
-}
-
-/* Disable the theme button on pages with the .disable-theme class */
-.disable-theme #themeBtn {
-    display: none;
 }

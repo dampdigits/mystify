@@ -1,7 +1,7 @@
-<!-- INDEX.HTML -->
+<!-- index.html -->
 
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="auto" id="index-html">
 
   <!-- BEGIN HEAD -->
   <head>
@@ -15,34 +15,55 @@
     <!-- Tab icon -->
     <link rel="icon" href="assets/img/gamezone_face_cutout.png" type="image/png">
     
-    <!-- Include Bootstrap's CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <!-- Include my CSS -->
-    <link href="assets/css/home.css" rel="stylesheet">
-
-    <!-- Embed Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Press+Start+2P&family=Roboto&family=Tilt+Prism&family=Ubuntu&display=swap" rel="stylesheet">
-
     <!-- Website preview -->
     <meta property="og:title" content="Sk. Sameer Salam"/>
     <meta property="og:description" content="Sk. Sameer Salam's homepage"/>
     <meta property="og:image" content="assets/img/suit_wide_bgChange.png"/>
+    
+    <!-- Embed Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Press+Start+2P&family=Roboto&family=Tilt+Prism&family=Ubuntu&display=swap" rel="stylesheet">
+    
+    <!-- STYLES -->
+    <!-- Include Bootstrap's CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Include home-page CSS -->
+    <link href="assets/css/home.css" rel="stylesheet">
+    <!-- Include navbar CSS -->
+    <link href="assets/css/navbar.css" rel="stylesheet">
   </head>
   <!-- END HEAD -->
 
   <!-- BEGIN BODY -->
-  <body data-bs-theme="dark" class="disable-theme">
-    <!-- Insert navigation Bar -->
-    <div id="navbar-placeholder"></div>
+  <body>
+    <!-- BEGIN NAVBAR -->
+    <nav class="navbar navbar-expand-sm fixed-top" data-bs-theme="dark">
+      <div class="container-fluid">
+        <!-- Nav-brand -->
+        <a class="navbar-brand px-1 px-sm-2 px-md-3 px-lg-5 text-uppercase fw-semibold" href="index.html">Sk. Sameer Salam</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>        
+        <!-- Nav-links -->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav nav-underline d-flex flex-row ms-auto text-uppercase fw-semibold py-3">
+            <a id = "nav-about" class="nav-link px-lg-2" href="about.html">About</a>
+            <a id = "nav-projects" class="nav-link px-lg-2" href="projects.html">Projects</a>
+            <a id = "nav-hobbies" class="nav-link px-lg-2" href="hobbies.html">Hobbies</a>
+            <a id = "nav-resume" class="nav-link px-lg-2" href="https://drive.google.com/file/d/1tgmbbcmaPKlGG7JOdahpWSpK6aeMSCnp/view?usp=drive_link">Resume</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
 
     <!-- BEGIN MAIN -->
     <section class="main d-flex flex-column justify-content-between py-5">
       <!-- BEGIN BANNER -->
       <div id="banner" class="container">
         <!-- BEGIN BANNER TEXT -->
-        <div class="mt-4 row">
+        <div class="mt-4 row text-white">
           <div class="col-lg-6 pt-5">
             <!-- Typing text -->
             <div id="greetingText"></div>
@@ -81,7 +102,7 @@
       </div>
       <!-- END BANNER -->
       <!-- BEGIN FOOTER -->
-      <footer class="container text-center">
+      <footer class="container text-center text-white">
         &copy; 2023
         <a class="text-secondary link-offset-2 link-underline link-underline-opacity-0" href="index.html">Sk. Sameer Salam. </a>
         Made with love & passion.
@@ -93,10 +114,6 @@
     <!-- SCRIPTS -->
     <!-- Include Bootstrap's javascript and dependencies-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <!-- Include jQuery library -->
-    <script src="//code.jquery.com/jquery.min.js"></script>
-    <!-- Include navbar javascript -->
-    <script src="assets/js/navbarLoader.js"></script>
     <!-- Include typewriter-javascript library -->
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <!-- Include typewriter javascript -->

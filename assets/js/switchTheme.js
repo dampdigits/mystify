@@ -25,7 +25,11 @@ document.addEventListener('DOMContentLoaded', function() {
     let theme = localStorage.getItem('theme');
     let button_image = localStorage.getItem('button_image');
     // Change to preferenced theme
-    let element = document.body;
-    element.dataset.bsTheme = theme;
-    image.setAttribute('src', button_image);
+    if (theme != null) {
+        let element = document.body;
+        element.dataset.bsTheme = theme;
+    }
+    if (button_image != null) {
+        image.setAttribute('src', button_image);
+    }
 });

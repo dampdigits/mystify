@@ -9,7 +9,7 @@ var typewriter = new Typewriter(element, {
 
 typewriter
   .pauseFor(2500)
-  .typeString('Hello World!')
+  .typeString('Hello there')
   .pauseFor(2500)
   .deleteAll()
   .typeString("I'm Sameer")

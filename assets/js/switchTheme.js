@@ -10,11 +10,13 @@ button.onclick = function() {
     let theme = element.dataset.bsTheme == "light" ? "dark" : "light";
     element.dataset.bsTheme = theme;
     // Switch button image
-    let button_image = image.getAttribute('src');
-    image.setAttribute('src',
-        button_image = button_image == "assets/icons/sun-fill.svg" ?
-            "assets/icons/moon-stars-fill.svg" : "assets/icons/sun-fill.svg"
-    );
+    let button_image = "";
+    if (theme == "light") {
+        button_image = "assets/icons/themes/moon-stars-fill.svg";
+    } else {
+        button_image = "assets/icons/themes/sun-fill.svg";
+    }
+    image.setAttribute('src', button_image);
     // save theme preference when user switches theme
     localStorage.setItem('theme', theme);
     localStorage.setItem('button_image', button_image);

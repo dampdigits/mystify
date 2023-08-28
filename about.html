@@ -27,6 +27,8 @@
     <!-- STYLES -->
     <!-- Include Bootstrap's CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Include home-page CSS -->
+    <link href="assets/css/about.css" rel="stylesheet">
     <!-- Include navbar CSS -->
     <link href="assets/css/navbar.css" rel="stylesheet">
   </head>
@@ -39,7 +41,7 @@
       <div class="container-fluid">
         <!-- Button for Light/Dark Mode -->
         <button type="button" class="icon btn px-3" id="themeBtn" >
-          <img id="themeIcon" src="assets/icons/sun-fill.svg" alt="themeIcon" width="20">
+          <img id="themeIcon" src="assets/icons/themes/sun-fill.svg" alt="themeIcon" width="20">
         </button>
 
         <!-- Nav-brand -->
@@ -63,20 +65,102 @@
 
     <!-- BEGIN MAIN -->
     <div class="container">
-      <h1 class="mt-5 py-5 px-3 fw-normal display-1">About</h1>
+      <h1 class="display-1 mt-5 px-3 py-5 fw-normal">About</h1>
+      <!-- BEGIN BIO -->
       <div id="bio" class="py-3">
         <p class="container">
           Hi, my name is Sk. Sameer Salam 👋🏼<br>
-          I am <span class="fw-semibold">computer science and engineering</span> student and I love programming.
+          I am <span class="fw-semibold">computer science and engineering</span> student and I love problem solving through programming.
         </p>
         <p class="container">
           I am also a part-time tutor who helps science and computer students ace their class 10 board exams.<br>
           I am passionate about technology and education. In this website, you will find some of my projects, achievements, and interests 😊
         </p>
       </div>
+      <!-- END BIO -->
       <hr>
+      <!-- BEGIN EDUCATION -->
+      <h1 class="display-3 py-5 fw-normal">Education</h1>
+      <!-- BEGIN CAROUSEL -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <!-- BEGIN CARDS -->
+          <!-- BEGIN Brainware-University -->
+          <div class="carousel-item active">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="assets/icons/institutions/bwu.jpg" class="edu-icon img-fluid rounded-start" alt="Brainware-University">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="https://www.brainwareuniversity.ac.in/" class="text-decoration-none fs-2">Brainware University</a>
+                    </h5>
+                    <p class="fw-semibold" style="color: grey">
+                      2022 - present
+                    </p>
+                    <p class="card-text fs-5">
+                      Bachelor of Technology in Computer Science and engineering<br>
+                      Specialization - Artificial Intelligence & Machine Learning
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END Brainware-University -->
+          <div class="carousel-item">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="assets/icons/institutions/bwu.jpg" class="edu-icon img-fluid rounded-start" alt="Brainware-University">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="https://www.brainwareuniversity.ac.in/" class="text-decoration-none fs-2">Brainware University</a>
+                    </h5>
+                    <p class="fw-semibold" style="color: grey">
+                      2022 - present
+                    </p>
+                    <p class="card-text fs-5">
+                      Bachelor of Technology in Computer Science and engineering<br>
+                      Specialization - Artificial Intelligence & Machine Learning
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END CARDS -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- END CAROUSEL -->
+      <!-- END EDUCATION -->
     </div>
     <!-- END MAIN -->
+    <!-- BEGIN FOOTER -->
+    <footer class="container text-center py-3">
+      <hr>
+      &copy; 2023
+      <a class="text-secondary link-offset-2 link-underline link-underline-opacity-0" href="index.html">Sk. Sameer Salam. </a>
+      Made with love & passion.
+    </footer>
+    <!-- END FOOTER -->
 
     <!-- SCRIPTS -->
     <!-- Include Bootstrap's javascript and dependencies-->

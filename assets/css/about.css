@@ -1,3 +1,19 @@
-.edu-icon {
+/* .edu-icon {
     width: 250px;
+} */
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-top: 150px;
+}
+
+.carousel-control-prev {
+    margin-left: 35px;
+}
+.carousel-control-next {
+    margin-right: 35px;
 }

@@ -1,6 +1,4 @@
-/* .edu-icon {
-    width: 250px;
-} */
+/* about.css */
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -16,9 +14,4 @@
 }
 .carousel-control-next {
     margin-right: 35px;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-    
 }

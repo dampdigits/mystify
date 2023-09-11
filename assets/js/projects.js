@@ -1,4 +1,4 @@
-// about.js
+// projects.js
 
 var element = document.getElementById('page-title');
 
@@ -9,6 +9,6 @@ var typewriter = new Typewriter(element, {
 
 typewriter
   .pauseFor(1250)
-  .typeString('About Me')
+  .typeString('My Projects')
   .pauseFor(10000)
   .start();

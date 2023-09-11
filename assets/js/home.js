@@ -1,4 +1,4 @@
-// TYPE.JS
+// home.js
 
 var element = document.getElementById('greetingText');
 
@@ -8,7 +8,7 @@ var typewriter = new Typewriter(element, {
 });
 
 typewriter
-  .pauseFor(2500)
+  .pauseFor(1250)
   .typeString('Hello there')
   .pauseFor(2500)
   .deleteAll()

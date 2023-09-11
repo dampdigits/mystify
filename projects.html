@@ -20,11 +20,19 @@
     <meta property="og:description" content="Sk. Sameer Salam's projects"/>
     <meta property="og:image" content="assets/img/suit_wide_bgChange.png"/>
     
+    <!-- Embed Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Press+Start+2P&family=Roboto&family=Tilt+Prism&family=Ubuntu&display=swap" rel="stylesheet">
+
     <!-- STYLES -->
     <!-- Include Bootstrap's CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- Include navbar CSS -->
     <link href="assets/css/navbar.css" rel="stylesheet">
+    <!-- Include style.css -->
+    <link href="assets/css/style.css" rel="stylesheet">
   </head>
   <!-- END HEAD -->
 
@@ -57,11 +65,161 @@
     </nav>
     <!-- END NAVBAR -->
 
+    <!-- BEGIN MAIN -->
+    <div class="">
+      <div class="container">
+        <!-- Page Heading -->
+        <div class="px-3" id="page-title"></div>
+  
+        <!-- BEGIN PROJECTS -->
+        <div class="container pt-4">
+          <!-- BEGIN CAROUSEL -->
+          <div id="carousel-projects" class="carousel slide" data-bs-ride="carousel">
+            <!-- BEGIN INDICATORS -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carousel-projects" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carousel-projects" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carousel-projects" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <!-- END INDICATORS -->
+            <div class="carousel-inner">
+              <!-- BEGIN CARDS -->
+              <!-- BEGIN Project-1 -->
+              <div id="carousel-project1" class="carousel-item active">
+                <div id="card-project1" class="card shadow mb-5 bg-body-tertiary rounded">
+                  <div class="row g-0">
+                    <!-- IMAGE -->
+                    <div class="col-md-4">
+                      <img src="assets/img/projects/project1.png" class="img-fluid rounded-start" alt="Covid-19 Tracker">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <div class="container px-sm-5 py-xl-4">
+                          <!-- Project name -->
+                          <h5 class="card-title">
+                            <a class="text-decoration-none fs-2">COVID-19 Tracker</a>
+                          </h5>
+                          <br>
+                          <p class="card-text">
+                            Track COVID-19 cases in the states of United States of America.
+                            <br>Source of COVID-19 data:
+                            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="https://github.com/nytimes/covid-19-data">
+                              New York Times Repository
+                            </a>
+                          </p>
+                          <!-- Code Link -->
+                          <div class="">
+                            <a class="btn btn-outline-warning my-3 py-2 " role="button" href="https://github.com/its-triple-s/COVID19-tracker">See on GitHub</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END Project-1 -->
+              <!-- BEGIN PROJECT-2 -->
+              <div id="carousel-project2" class="carousel-item">
+                <div id="card-project2" class="card shadow mb-5 bg-body-tertiary rounded">
+                  <div class="row g-0">
+                    <!-- IMAGE -->
+                    <div class="col-md-4">
+                      <img src="assets/img/projects/project2.jpg" class="img-fluid rounded-start" alt="DNA-Matcher">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <div class="container px-sm-5 py-xl-4">
+                          <!-- Project name -->
+                          <h5 class="card-title">
+                            <a class="text-decoration-none fs-2">DNA Matcher</a>
+                          </h5>
+                          <br>
+                          <p class="card-text">
+                            Match DNA to identify a person.<br>
+                            The identification process uses Short Tandem Repeat (STR) in a DNA sequence.
+                          </p>
+                          <!-- Code Link -->
+                          <div class="">
+                            <a class="btn btn-outline-warning my-3 py-2 " role="button" href="https://github.com/its-triple-s/DNA-matcher">See on GitHub</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END PROJECT-2 -->
+              <!-- BEGIN PROJECT-3 -->
+              <div id="carousel-project3" class="carousel-item">
+                <div id="card-project3" class="card shadow mb-5 bg-body-tertiary rounded">
+                  <div class="row g-0">
+                    <!-- IMAGE -->
+                    <div class="col-md-4">
+                      <img src="assets/img/projects/project3.png" class="img-fluid rounded-start" alt="Image-Recovery">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <div class="container px-sm-5 py-xl-4">
+                          <!-- Project name -->
+                          <h5 class="card-title">
+                            <a class="text-decoration-none fs-2">Image Recovery</a>
+                          </h5>
+                          <br>
+                          <p class="card-text">
+                            Recover deleted JPEG images from a forensic image of a memory card.
+                          </p>
+                          <!-- Code Link -->
+                          <div class="">
+                            <a class="btn btn-outline-warning my-3 py-2 " role="button" href="https://github.com/its-triple-s/image-recovery">See on GitHub</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END PROJECT-3 -->
+              <!-- END CARDS -->
+            </div>
+            <!-- BEGIN BUTTONS -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-projects" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-projects" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <!-- END BUTTONS -->
+          </div>
+          <!-- END CAROUSEL -->
+          <a class="btn btn-success my-3 py-2" role="button" href="https://github.com/its-triple-s?tab=repositories">Explore more projects</a>
+        <!-- END PROJECTS -->
+        </div>
+      <!-- END MAIN -->
+      </div>
+      
+      <!-- BEGIN FOOTER -->
+      <footer class="container text-center py-3">
+        <hr>
+        <div class="py-3">
+          &copy; 2023
+          <a class="text-secondary link-offset-2 link-underline link-underline-opacity-0" href="index.html">Sk. Sameer Salam. </a>
+          Made with love & passion.
+        </div>
+      </footer>
+      <!-- END FOOTER -->
+    </div>
+
     <!-- SCRIPTS -->
     <!-- Include Bootstrap's javascript and dependencies-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <!-- Include js file to switch theme -->
     <script src="assets/js/switchTheme.js"></script>
+    <!-- Include typewriter-javascript library -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <!-- Include projects javascript -->
+    <script src="assets/js/projects.js"></script>
   </body>
   <!-- END HEAD -->
 

@@ -16,8 +16,8 @@
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
-    padding-top: 140px;
-    padding-bottom: 30px;
+    padding-top: 120px;
+    padding-bottom: 20px;
 }
 
 @media (max-width: 991px) {

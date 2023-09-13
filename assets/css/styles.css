@@ -44,6 +44,12 @@
     margin-right: 35px;
 }
 
-.stylish {
-    font-family: 'Ubuntu', sans-serif;
+.social-icon {
+    width: 22px;
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+}
+
+.icon:hover {
+    transform: scale(1.2);
 }

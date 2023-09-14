@@ -31,6 +31,7 @@ The portfolio website is built using a variety of technologies, including but no
 - **HTML5**, **CSS3**, and **JavaScript** for the front-end interface.
 - [Bootstrap](https://getbootstrap.com/) for responsive and sleek design.
 - [GitHub Pages](https://pages.github.com/) for hosting the website directly from this repository.
+- [TypewriterJS](https://github.com/tameemsafi/typewriterjs) for typing effect.
 
 ## Usage
 

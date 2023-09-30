@@ -46,7 +46,7 @@ This project is licensed under the [GNU Affero General Public License version 3]
 If you have any questions, suggestions, or would like to discuss collaboration opportunities, please feel free to reach out to me:
 
 - **Email:** sameersalam730@gmail.com
-- **LinkedIn:** [its-triple-s](https://www.linkedin.com/in/dampdigits)
-- **Twitter:** [@its_triple_s_](https://www.twitter.com/dampdigits)
+- **LinkedIn:** [@dampdigits](https://www.linkedin.com/in/dampdigits)
+- **Twitter:** [@dampdigits](https://www.twitter.com/dampdigits)
 
 Thank you for visiting Mystify!

@@ -11,6 +11,12 @@ Welcome to the repository for my personal portfolio website! This repository con
 - [License](#license)
 - [Contact](#contact)
 
+![homepage](https://github.com/dampdigits/mystify/assets/113439449/7d8f38ca-006a-4abb-a76a-0905db5b821d)
+
+![about](https://github.com/dampdigits/mystify/assets/113439449/900d0256-b55f-4fa9-8b4a-b6a1d75d1ced)
+
+![projects](https://github.com/dampdigits/mystify/assets/113439449/05fe0fbd-d137-40cc-99d8-6aba57cf3aa7)
+
 ## About
 
 This portfolio website serves as a showcase of my professional journey, skills, and projects. It provides visitors with an overview of my background, experiences, and the various projects I have worked on. Whether you're a potential employer, collaborator, or just someone interested in my work, I hope you find this portfolio informative and engaging.
@@ -47,6 +53,6 @@ If you have any questions, suggestions, or would like to discuss collaboration o
 
 - **Email:** sameersalam730@gmail.com
 - **LinkedIn:** [@dampdigits](https://www.linkedin.com/in/dampdigits)
-- **Twitter:** [@dampdigits](https://www.twitter.com/dampdigits)
+- **Twitter(X):** [@dampdigits](https://www.twitter.com/dampdigits)
 
 Thank you for visiting Mystify!

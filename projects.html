@@ -1,37 +1,44 @@
 <!-- projects.html -->
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" dir="auto" id="projects-html" data-bs-theme="dark">
-
   <!-- BEGIN HEAD -->
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <!-- Make responsive web design -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Sk. Sameer Salam</title>
-    <meta name="description" content="Sk. Sameer Salam's projects">
+    <meta name="description" content="Sk. Sameer Salam's projects" />
 
     <!-- favicon -->
-    <link rel="icon" href="assets/icons/logo/dd-no-bg.webp" type="image/webp">
-    
+    <link rel="icon" href="assets/icons/logo/dd-no-bg.webp" type="image/webp" />
+
     <!-- Website preview -->
-    <meta property="og:title" content="Sk. Sameer Salam">
-    <meta property="og:description" content="Sk. Sameer Salam's projects">
-    <meta property="og:image" content="assets/img/sameer/thumbnail.jpg">
-    
+    <meta property="og:title" content="Sk. Sameer Salam" />
+    <meta property="og:description" content="Sk. Sameer Salam's projects" />
+    <meta property="og:image" content="assets/img/sameer/thumbnail.jpg" />
+
     <!-- Embed Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Press+Start+2P&family=Roboto&family=Tilt+Prism&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Press+Start+2P&family=Roboto&family=Tilt+Prism&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- STYLES -->
     <!-- Include Bootstrap's CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
     <!-- Include navbar CSS -->
-    <link href="assets/css/navbar.css" rel="stylesheet">
+    <link href="assets/css/navbar.css" rel="stylesheet" />
     <!-- Include style.css -->
-    <link href="assets/css/styles.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet" />
   </head>
   <!-- END HEAD -->
 
@@ -41,23 +48,56 @@
     <nav class="navbar navbar-expand-sm fixed-top" data-bs-theme="dark">
       <div class="container-fluid">
         <!-- Button for Light/Dark Mode -->
-        <button type="button" class="icon btn px-3" id="themeBtn" >
-          <img id="themeIcon" src="assets/icons/themes/sun-fill.svg" alt="themeIcon" width="20">
+        <button type="button" class="icon btn px-3" id="themeBtn">
+          <img
+            id="themeIcon"
+            src="assets/icons/themes/sun-fill.svg"
+            alt="themeIcon"
+            width="20"
+          />
         </button>
 
         <!-- Nav-brand -->
-        <a class="navbar-brand px-1 px-sm-2 px-md-3 px-lg-5 text-uppercase fw-semibold" href="index.html">Sk. Sameer Salam</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <a
+          class="navbar-brand px-1 px-sm-2 px-md-3 px-lg-5 text-uppercase fw-semibold"
+          href="index.html"
+          >Sk. Sameer Salam</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <!-- Nav-links -->
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav nav-underline d-flex flex-row ms-auto text-uppercase fw-semibold py-3">
-            <a id = "nav-about" class="nav-link px-lg-2" href="about.html">About</a>
-            <a id = "nav-projects" class="nav-link active px-lg-2" href="projects.html">Projects</a>
-            <a id = "nav-hobbies" class="nav-link px-lg-2" href="hobbies.html">Hobbies</a>
-            <a id = "nav-resume" class="nav-link px-lg-2" href="assets/Resume-Sameer.pdf">Resume</a>
+          <div
+            class="navbar-nav nav-underline d-flex flex-row ms-auto text-uppercase fw-semibold py-3"
+          >
+            <a id="nav-about" class="nav-link px-lg-2" href="about.html"
+              >About</a
+            >
+            <a
+              id="nav-projects"
+              class="nav-link active px-lg-2"
+              href="projects.html"
+              >Projects</a
+            >
+            <a id="nav-hobbies" class="nav-link px-lg-2" href="hobbies.html"
+              >Hobbies</a
+            >
+            <a
+              id="nav-resume"
+              class="nav-link px-lg-2"
+              href="assets/Resume-Sameer.pdf"
+              >Resume</a
+            >
           </div>
         </div>
       </div>
@@ -68,46 +108,100 @@
     <div class="container">
       <!-- Page Heading -->
       <div class="px-3" id="page-title"></div>
-  
+
       <!-- BEGIN PROJECTS -->
       <div class="container pt-4">
         <!-- BEGIN CAROUSEL -->
-        <div id="carousel-projects" class="carousel slide" data-bs-ride="carousel">
+        <div
+          id="carousel-projects"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
           <!-- BEGIN INDICATORS -->
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carousel-projects" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carousel-projects" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carousel-projects" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carousel-projects" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carousel-projects" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-projects"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-projects"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-projects"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-projects"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-projects"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
           </div>
           <!-- END INDICATORS -->
           <!-- BEGIN CARDS -->
           <div class="carousel-inner">
             <!-- BEGIN PROJECT-1 -->
             <div id="carousel-project1" class="carousel-item active">
-              <div id="card-project1" class="card shadow mb-5 bg-body-tertiary rounded">
+              <div
+                id="card-project1"
+                class="card shadow mb-5 bg-body-tertiary rounded"
+              >
                 <div class="row g-0">
                   <!-- IMAGE -->
                   <div class="col-md-4">
-                    <img src="assets/img/projects/invoicemaker.webp" class="img-fluid rounded-start" alt="DNA-Matcher">
+                    <img
+                      src="assets/img/projects/invoicemaker.webp"
+                      class="img-fluid rounded-start"
+                      alt="DNA-Matcher"
+                    />
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
                       <div class="container px-sm-5 py-xl-4">
                         <!-- Project name -->
                         <h5 class="card-title">
-                          <a class="text-decoration-none fs-2" href="https://github.com/dampdigits/invoice-maker/">Invoice Maker</a>
+                          <a
+                            class="text-decoration-none fs-2"
+                            href="https://github.com/dampdigits/invoice-maker/"
+                            >Invoice Maker</a
+                          >
                         </h5>
-                        <br>
+                        <br />
                         <p class="card-text">
-                          Create invoices & automatically email it to customers.<br>
-                          Invoices are generated in the form of web-pages, PDFs (with scannable QR code), and CSV files.
+                          Create invoices & automatically email it to
+                          customers.<br />
+                          Invoices are generated in the form of web-pages, PDFs
+                          (with scannable QR code), and CSV files.
                         </p>
                         <!-- Code Link -->
-                        <a class="btn btn-outline-warning my-3 py-2 " role="button" href="https://github.com/dampdigits/DNA-matcher">See on GitHub</a>
+                        <a
+                          class="btn btn-outline-warning my-3 py-2"
+                          role="button"
+                          href="https://github.com/dampdigits/DNA-matcher"
+                          >See on GitHub</a
+                        >
                         <!--Website Link-->
-                        <a class="btn btn-warning my-3 mx-2 py-2 " role="button" href="https://makeyourinvoice.vercel.app/">Try it out</a>
+                        <a
+                          class="btn btn-warning my-3 mx-2 py-2"
+                          role="button"
+                          href="https://makeyourinvoice.vercel.app/"
+                          >Try it out</a
+                        >
                       </div>
                     </div>
                   </div>
@@ -117,29 +211,49 @@
             <!-- END PROJECT-1 -->
             <!-- BEGIN Project-2 -->
             <div id="carousel-project2" class="carousel-item">
-              <div id="card-project2" class="card shadow mb-5 bg-body-tertiary rounded">
+              <div
+                id="card-project2"
+                class="card shadow mb-5 bg-body-tertiary rounded"
+              >
                 <div class="row g-0">
                   <!-- IMAGE -->
                   <div class="col-md-4">
-                    <img src="assets/img/projects/project1.webp" class="img-fluid rounded-start" alt="Covid-19 Tracker">
+                    <img
+                      src="assets/img/projects/project1.webp"
+                      class="img-fluid rounded-start"
+                      alt="Covid-19 Tracker"
+                    />
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
                       <div class="container px-sm-5 py-xl-4">
                         <!-- Project name -->
                         <h5 class="card-title">
-                          <a class="text-decoration-none fs-2" href="https://github.com/dampdigits/COVID19-tracker">COVID-19 Tracker</a>
+                          <a
+                            class="text-decoration-none fs-2"
+                            href="https://github.com/dampdigits/COVID19-tracker"
+                            >COVID-19 Tracker</a
+                          >
                         </h5>
-                        <br>
+                        <br />
                         <p class="card-text">
-                          Track COVID-19 cases in the states of United States of America.
-                          <br>Source of COVID-19 data:
-                          <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="https://github.com/nytimes/covid-19-data">
+                          Track COVID-19 cases in the states of United States of
+                          America.
+                          <br />Source of COVID-19 data:
+                          <a
+                            class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                            href="https://github.com/nytimes/covid-19-data"
+                          >
                             New York Times Repository
                           </a>
                         </p>
                         <!-- Code Link -->
-                        <a class="btn btn-outline-warning my-3 py-2 " role="button" href="https://github.com/dampdigits/COVID19-tracker">See on GitHub</a>
+                        <a
+                          class="btn btn-outline-warning my-3 py-2"
+                          role="button"
+                          href="https://github.com/dampdigits/COVID19-tracker"
+                          >See on GitHub</a
+                        >
                       </div>
                     </div>
                   </div>
@@ -149,26 +263,43 @@
             <!-- END Project-2 -->
             <!-- BEGIN PROJECT-3 -->
             <div id="carousel-project3" class="carousel-item">
-              <div id="card-project3" class="card shadow mb-5 bg-body-tertiary rounded">
+              <div
+                id="card-project3"
+                class="card shadow mb-5 bg-body-tertiary rounded"
+              >
                 <div class="row g-0">
                   <!-- IMAGE -->
                   <div class="col-md-4">
-                    <img src="assets/img/projects/project2.webp" class="img-fluid rounded-start" alt="DNA-Matcher">
+                    <img
+                      src="assets/img/projects/project2.webp"
+                      class="img-fluid rounded-start"
+                      alt="DNA-Matcher"
+                    />
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
                       <div class="container px-sm-5 py-xl-4">
                         <!-- Project name -->
                         <h5 class="card-title">
-                          <a class="text-decoration-none fs-2" href="https://github.com/dampdigits/DNA-matcher">DNA Matcher</a>
+                          <a
+                            class="text-decoration-none fs-2"
+                            href="https://github.com/dampdigits/DNA-matcher"
+                            >DNA Matcher</a
+                          >
                         </h5>
-                        <br>
+                        <br />
                         <p class="card-text">
-                          Match DNA to identify a person.<br>
-                          The identification process uses Short Tandem Repeat (STR) in a DNA sequence.
+                          Match DNA to identify a person.<br />
+                          The identification process uses Short Tandem Repeat
+                          (STR) in a DNA sequence.
                         </p>
                         <!-- Code Link -->
-                        <a class="btn btn-outline-warning my-3 py-2 " role="button" href="https://github.com/dampdigits/DNA-matcher">See on GitHub</a>
+                        <a
+                          class="btn btn-outline-warning my-3 py-2"
+                          role="button"
+                          href="https://github.com/dampdigits/DNA-matcher"
+                          >See on GitHub</a
+                        >
                       </div>
                     </div>
                   </div>
@@ -178,25 +309,42 @@
             <!-- END PROJECT-3 -->
             <!-- BEGIN PROJECT-4 -->
             <div id="carousel-project4" class="carousel-item">
-              <div id="card-project4" class="card shadow mb-5 bg-body-tertiary rounded">
+              <div
+                id="card-project4"
+                class="card shadow mb-5 bg-body-tertiary rounded"
+              >
                 <div class="row g-0">
                   <!-- IMAGE -->
                   <div class="col-md-4">
-                    <img src="assets/img/projects/project3.webp" class="img-fluid rounded-start" alt="Image-Recovery">
+                    <img
+                      src="assets/img/projects/project3.webp"
+                      class="img-fluid rounded-start"
+                      alt="Image-Recovery"
+                    />
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
                       <div class="container px-sm-5 py-xl-4">
                         <!-- Project name -->
                         <h5 class="card-title">
-                          <a class="text-decoration-none fs-2" href="https://github.com/dampdigits/image-recovery">Image Recovery</a>
+                          <a
+                            class="text-decoration-none fs-2"
+                            href="https://github.com/dampdigits/image-recovery"
+                            >Image Recovery</a
+                          >
                         </h5>
-                        <br>
+                        <br />
                         <p class="card-text">
-                          Recover deleted JPEG images from a forensic image of a memory card.
+                          Recover deleted JPEG images from a forensic image of a
+                          memory card.
                         </p>
                         <!-- Code Link -->
-                        <a class="btn btn-outline-warning my-3 py-2 " role="button" href="https://github.com/dampdigits/image-recovery">See on GitHub</a>
+                        <a
+                          class="btn btn-outline-warning my-3 py-2"
+                          role="button"
+                          href="https://github.com/dampdigits/image-recovery"
+                          >See on GitHub</a
+                        >
                       </div>
                     </div>
                   </div>
@@ -206,25 +354,44 @@
             <!-- END PROJECT-4 -->
             <!-- BEGIN PROJECT-5 -->
             <div id="carousel-project5" class="carousel-item">
-              <div id="card-project5" class="card shadow mb-5 bg-body-tertiary rounded">
+              <div
+                id="card-project5"
+                class="card shadow mb-5 bg-body-tertiary rounded"
+              >
                 <div class="row g-0">
                   <!-- IMAGE -->
                   <div class="col-md-4">
-                    <img src="assets/img/projects/project4.webp" class="img-fluid rounded-start" alt="Mystify">
+                    <img
+                      src="assets/img/projects/project4.webp"
+                      class="img-fluid rounded-start"
+                      alt="Mystify"
+                    />
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
                       <div class="container px-sm-5 py-xl-4">
                         <!-- Project name -->
                         <h5 class="card-title">
-                          <a class="text-decoration-none fs-2" href="https://github.com/dampdigits/mystify">Mystify</a>
+                          <a
+                            class="text-decoration-none fs-2"
+                            href="https://github.com/dampdigits/mystify"
+                            >Mystify</a
+                          >
                         </h5>
-                        <br>
+                        <br />
                         <p class="card-text">
-                          This website that you are browsing right now, it is made by me. Mystify is more than just a portfolio website. It is a reflection of my passion, creativity and expertise as a web developer.
+                          This website that you are browsing right now, it is
+                          made by me. Mystify is more than just a portfolio
+                          website. It is a reflection of my passion, creativity
+                          and expertise as a web developer.
                         </p>
                         <!-- Code Link -->
-                        <a class="btn btn-outline-warning my-3 py-2 " role="button" href="https://github.com/dampdigits/mystify">See on GitHub</a>
+                        <a
+                          class="btn btn-outline-warning my-3 py-2"
+                          role="button"
+                          href="https://github.com/dampdigits/mystify"
+                          >See on GitHub</a
+                        >
                       </div>
                     </div>
                   </div>
@@ -236,58 +403,135 @@
           <!-- END CARDS -->
           <!-- BEGIN BUTTONS -->
           <div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-projects" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel-projects"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel-projects" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel-projects"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
           <!-- END BUTTONS -->
         </div>
         <!-- END CAROUSEL -->
-        <a class="btn btn-success my-3 py-2" role="button" href="https://github.com/dampdigits?tab=repositories">Explore more projects</a>
+        <a
+          class="btn btn-success my-3 py-2"
+          role="button"
+          href="https://github.com/dampdigits?tab=repositories"
+          >Explore more projects</a
+        >
       </div>
       <!-- END PROJECTS -->
     </div>
     <!-- END MAIN -->
-      
+
     <!-- BEGIN FOOTER -->
     <footer class="container text-center py-3">
-      <hr>
+      <hr />
       <div class="row justify-content-center py-md-2">
         <div class="col-lg-4">
           <!-- BEGIN SOCIAL MEDIA LINKS -->
           <div class="py-3">
             <!-- LinkedIn profile -->
-            <a class="text-decoration-none" href="https://www.linkedin.com/in/dampdigits">
-              <img class="icon social-icon" id="linkedInIcon" src="assets/icons/socials/linkedin.svg" alt="LinkedIn">
+            <a
+              class="text-decoration-none"
+              href="https://www.linkedin.com/in/dampdigits"
+            >
+              <img
+                class="icon social-icon"
+                id="linkedInIcon"
+                src="assets/icons/socials/linkedin.svg"
+                alt="LinkedIn"
+              />
             </a>
             <!-- GitHub profile -->
-            <a class="text-decoration-none" href="https://www.github.com/dampdigits">
-              <img class="icon social-icon" id="githubIcon" src="assets/icons/socials/github.svg" alt="GitHub">
+            <a
+              class="text-decoration-none"
+              href="https://www.github.com/dampdigits"
+            >
+              <img
+                class="icon social-icon"
+                id="githubIcon"
+                src="assets/icons/socials/github.svg"
+                alt="GitHub"
+              />
             </a>
             <!-- Leetcode profile -->
-            <a class="text-decoration-none" href="https://www.leetcode.com/dampdigits">
-              <img class="icon social-icon" id="leetcodeIcon" src="assets/icons/socials/leetcode.svg" alt="LeetCode">
+            <a
+              class="text-decoration-none"
+              href="https://www.leetcode.com/dampdigits"
+            >
+              <img
+                class="icon social-icon"
+                id="leetcodeIcon"
+                src="assets/icons/socials/leetcode.svg"
+                alt="LeetCode"
+              />
             </a>
             <!-- Twitter profile -->
-            <a class="text-decoration-none" href="https://www.twitter.com/dampdigits">
-              <img class="icon social-icon" id="twitterIcon" src="assets/icons/socials/twitter.svg" alt="Twitter">
+            <a
+              class="text-decoration-none"
+              href="https://www.twitter.com/dampdigits"
+            >
+              <img
+                class="icon social-icon"
+                id="twitterIcon"
+                src="assets/icons/socials/twitter.svg"
+                alt="Twitter"
+              />
             </a>
             <!-- Threads profile -->
-            <a class="text-decoration-none" href="https://www.threads.net/@dampdigits">
-              <img class="icon social-icon" id="threadsIcon" src="assets/icons/socials/threads.svg" alt="Threads">
+            <a
+              class="text-decoration-none"
+              href="https://www.threads.net/@dampdigits"
+            >
+              <img
+                class="icon social-icon"
+                id="threadsIcon"
+                src="assets/icons/socials/threads.svg"
+                alt="Threads"
+              />
             </a>
             <!-- Instagram profile -->
-            <a class="text-decoration-none" href="https://www.instagram.com/dampdigits">
-              <img class="icon social-icon" id="instagramIcon" src="assets/icons/socials/instagram.svg" alt="Instagram">
+            <a
+              class="text-decoration-none"
+              href="https://www.instagram.com/dampdigits"
+            >
+              <img
+                class="icon social-icon"
+                id="instagramIcon"
+                src="assets/icons/socials/instagram.svg"
+                alt="Instagram"
+              />
             </a>
             <!-- Mail ID -->
-            <a class="text-decoration-none" href="mailto:sameersalam730@gmail.com">
-              <img class="icon social-icon" id="mailIcon" src="assets/icons/socials/mail.svg" alt="MailID">
+            <a
+              class="text-decoration-none"
+              href="mailto:sameersalam730@gmail.com"
+            >
+              <img
+                class="icon social-icon"
+                id="mailIcon"
+                src="assets/icons/socials/mail.svg"
+                alt="MailID"
+              />
             </a>
           </div>
           <!-- END SOCIAL MEDIA LINKS -->
@@ -295,8 +539,11 @@
         <div class="col-lg-5">
           <div class="py-3">
             &copy; 2024
-            <a class="link-body-emphasis link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-50-hover text-reset" href="index.html"><span class="fw-semibold">Sk Sameer Salam</span></a>. 
-            Made with love & passion.
+            <a
+              class="link-body-emphasis link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-50-hover text-reset"
+              href="index.html"
+              ><span class="fw-semibold">Sk Sameer Salam</span></a
+            >. Made with love & passion.
           </div>
         </div>
       </div>
@@ -305,7 +552,11 @@
 
     <!-- SCRIPTS -->
     <!-- Include Bootstrap's javascript and dependencies-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
     <!-- Include js file to switch theme -->
     <script src="assets/js/switchTheme.js"></script>
     <!-- Include typewriter-javascript library -->
@@ -314,6 +565,4 @@
     <script src="assets/js/projects.js"></script>
   </body>
   <!-- END HEAD -->
-
 </html>
-

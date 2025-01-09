@@ -443,7 +443,7 @@
         </div>
         <div class="col-lg-5">
           <div class="py-3">
-            &copy; 2024
+            &copy; <span id="current-year"></span>
             <a
               class="link-body-emphasis link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-50-hover text-reset"
               href="index.html"
@@ -452,6 +452,9 @@
           </div>
         </div>
       </div>
+      <script>
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+      </script>
     </footer>
     <!-- END FOOTER -->
 

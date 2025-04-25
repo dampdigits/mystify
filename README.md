@@ -27,7 +27,7 @@ This portfolio website serves as a showcase of my professional journey, skills, 
 - **About:** An introduction to who I am and what I do.
 - **Projects:** A collection of my significant projects with detailed information.
 - **Hobbies:** A look at things I love to do besides from programming.
-- **Resume:** A link to my Resume.
+- **CV:** A link to my Curriculum Vitae.
 - **Contact:** Social media profile links to get in touch with me.
 
 ## Technologies
